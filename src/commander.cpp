@@ -12,7 +12,8 @@ struct Pose {
     double angle;
 };
 
-const Pose GOAL = {2, -22, -90};
+// const Pose GOAL = {2, -22, -90};
+const Pose GOAL = {4, 0, 0};
 
 typedef actionlib::SimpleActionClient<MoveBaseAction> MoveBaseClient;
 // Called once when the goal completes
